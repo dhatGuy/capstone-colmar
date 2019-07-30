@@ -1,12 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+
 body {
     background-color: rgb(241, 236, 236);
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
 
 header {
-    margin-top: 0;
-    /* max-width: 1050px; */
     margin: 0 auto;
     display: flex;
     height: 64px;
@@ -19,11 +19,23 @@ header {
     margin-left: 16px;
 }
 
+.leftSide{
+    height: 32px;
+    margin: auto;
+}
+
 .leftSide li {
+    font-size: 25px;
     list-style-type: none;
     height: 32px;
     display: flex;
     align-items: center;
+    color: rgba(0, 0, 0,0.6)
+}
+
+.leftSide li span{
+    font-weight: 700;
+    color: initial;
 }
 
 .rightSide {
@@ -73,7 +85,6 @@ header {
 
 .learn-container {
     display: flex;
-    /* max-width: 1000px; */
     margin: 0 auto;
     background-color: #c4baba;
 }
@@ -86,14 +97,13 @@ header {
 
 .banner img {
     width: 100%;
-    /* height: ; */
 }
 
 .learn-right {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 230px;
+    max-width: 260px;
 }
 
 .learn-right input {
@@ -344,7 +354,7 @@ header {
 
 /* Thesis Exhibit */
 .thesis-exhibit{
-    background-color: rgb(233, 233, 220);
+    background-color: rgba(216, 210, 210, 0.849);
     border-bottom: 1px solid rgb(202, 199, 199);
 }
 .thesis-exhibit > h1{
