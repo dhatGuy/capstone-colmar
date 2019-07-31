@@ -65,7 +65,7 @@ header {
 
 /* For mobile */
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:992px) {
     .mobileNav {
         display: flex;
         list-style-type: none;
@@ -126,7 +126,7 @@ header {
 
 /* Banner for mobile */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
     .mobile-learn-container {
         flex-direction: column;
         width: 100%;
@@ -230,7 +230,7 @@ header {
 }
 
 /* Information for mobile */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
     .information-left {
         display: none;
     }
@@ -335,7 +335,7 @@ header {
 }
 
 /* Courses for mobile */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     .course{
         background-color: rgb(255, 255, 250);
         display: block;
@@ -429,7 +429,7 @@ video{
 }
 
 /* Thesis Exhibit for mobile */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     .right-column, .video-details{
         display: none;
     }
@@ -472,7 +472,7 @@ a{
 }
 
 /* footer for mobile */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     .right-footer{
         display: none;
     }
