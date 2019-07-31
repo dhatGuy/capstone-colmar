@@ -55,6 +55,7 @@ header {
     display: flex;
     align-items: center;
     margin-left: 24px;
+    cursor: pointer;
 }
 
 .mobileNav {
@@ -112,6 +113,8 @@ header {
     border: none;
     background-color: #383838;
     color: #fff;
+    cursor: pointer;
+    font-size: 25px;
 }
 
 .learn-right h1 {
@@ -186,10 +189,18 @@ header {
 .information-right {
     max-width: 40%;
     margin-top: 16px;
+    border-left: 1px solid rgb(177, 173, 173);
 }
 
 .information-content {
     display: flex;
+}
+
+.information-right .information-content:first-child{
+    border-bottom: 1px solid rgb(177, 173, 173);
+}
+.information-right .information-content:nth-child(2){
+    border-top: 1px solid rgb(177, 173, 173);
 }
 
 .information-image {
@@ -218,6 +229,7 @@ header {
     color: blue;
 }
 
+/* Information for mobile */
 @media only screen and (max-width: 620px) {
     .information-left {
         display: none;
@@ -297,6 +309,16 @@ header {
 
 .course-details {
     margin: 16px 0 24px 16px;
+}
+
+.course-container:hover{
+    box-shadow: 0 0 20px 9px rgb(224, 222, 222);
+    cursor: pointer;
+}
+
+.course-details p{
+    font-weight: lighter;
+    font-size: 14px;
 }
 
 .course-container img {
